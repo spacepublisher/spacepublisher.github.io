@@ -143,6 +143,10 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-link {
@@ -156,8 +160,12 @@
 /**
  * Posts
  */
+.post{
+    margin-top: 30px;
+}
 .post-header {
   margin-bottom: $spacing-unit;
+  margin-bottom: 100px;
 }
 
 .post-title,
@@ -171,8 +179,16 @@
   }
 }
 
+.post-title{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .post-content {
   margin-bottom: $spacing-unit;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 
   h2 {
     @include relative-font-size(1.75);
@@ -230,7 +246,7 @@
 
 
 .top-visual{
-    height: 360px;
+    height: 150px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     margin-bottom: 30px;

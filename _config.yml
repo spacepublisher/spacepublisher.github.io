@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
     대충 디스크립션을 여기에 쓴다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: spacepublisher
+github_username:  spacepublisher
 
 # Build settings
 markdown: kramdown
