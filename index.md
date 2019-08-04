@@ -5,10 +5,9 @@
 layout: home
 title: Home
 ---
-index.md입니다.2222
 
-대충 메인페이지 글자 블라블라.
 
-대충 링크들
-[jekyllrb.com](https://jekyllrb.com/)
-[minima](https://github.com/jekyll/minima)
+<br>
+<br>
+<br>
+# 안녕하세요! 스페이스퍼블리셔입니다!<br>이곳은 대충 퍼블리셔 기술블로그입니다. <br> 대충 퍼블리싱 관련 지식과 실무 코드를 다룹니다.

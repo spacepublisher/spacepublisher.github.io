@@ -1,18 +1,16 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- 1988년, 한국에서 대충 태어났습니다.
+- 2012년, 육군 71사단 166연대를 전역했습니다. 닌자거북이. 중대장CP. 테니스장관리. 비문관리. 동원관리. 잡부.
+- 20년 넘게 분당에 살다가, 현재는 수원에 거주중입니다.
+- 2014년부터 퍼블리싱으로 밥벌이를 하고있습니다.
+- 2018년부터 프리랜서로만 일자리를 구하고있습니다.
+- 주말에는 주로 늦잠을 자다가, 대충 유튜브로 정치 컨텐츠 틀어놓고 이해하는척하는게 취미입니다.
+- 평일에는 출퇴근을 합니다. 뚜벅이입니다.
+- 러닝과 헬스를 최대한 하려고 노력은 하는중입니다.
+- 목표는 완전한 재택 근무입니다. 완전하다함은 일의 연속성, 페이의 안정성을 모두 확보한 상태를 의미합니다. 가능할런지 모르겠습니다.
+- 국력에 이바지를 하고 싶습니다. 나중에는 해외 회사와 일을해서 외국 자본을 끌여들이는 애국자가 되고싶습니다.(근데 영어가 안되서...)
