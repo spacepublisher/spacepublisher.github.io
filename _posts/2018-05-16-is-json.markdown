@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "is JSON?"
+date:   2018-05-16 00:00:00 +0900
+categories: jekyll update
+---
+데이터 그룹핑에 유용한 JSON. 사람이 보기에도 좋고, 컴퓨터가 이해할 수도 있는 디자인. 그러나, 이 사랑스러운 JSON이 가끔 JSON이 맞는지 아닌지헤깔릴때가 있습니다. 가만히 오래 보아...봤자 헤깔립니다.   
+그래서 자주 틀리는 부분과 체크법을 간단하게 알아보려 합니다.
+
+## 싱글은 안되고, 쌍은 된다.
+따옴표에는 홑 따옴표(Single quote)가 있고, 쌍 따옴표(Double quote)가 있습니다.   
+골때리는 점은, 일반적인 자바스크립트는 홑이든 쌍이든 따옴표면 다 되지만,   
+JSON은 까다롭게도 오로지 '쌍'만 허용합니다.   
+더 골때리는 점은 제가 겪은바로는 현업에서 보통 컨벤션이 HTML에서 속성을 정의할때는 쌍 따옴표를 하고, 스크립트에서는 홑 따옴표로 합니다.   
+즉, 스크립트 문서가 전반적으로 통일성이 좀 떨어지는 감이 있습니다. 실수할 확률도 좀 생깁니다.
+
+## 따라서, 다음것들은 안됩니다.
+- {a:'b'}
+- {'a':'b'}
+- {"a":'b'}
+- {"a":{"a":'b'}}
+
+## JSONlint로 체크
+코드가 좀 길어지면, JSON 인지 아닌지 헤깔릴 수 있는데요, 이때 판단을 해주는 웹 서비스가 있습니다.   
+[https://jsonlint.com/][link1]
+
+[link1]: https://jsonlint.com/
+
+## 직접 체크
+혹은 다음과 같이 직접 코드로 확인해보세요. 콘솔창에서 Uncaught SyntaxError: Unexpected token ' in JSON at position... 같은 말이 뜨면 json이 아닌겁니다.
+
+<p data-height="188" data-theme-id="0" data-slug-hash="KRxjyV" data-default-tab="js,result" data-user="verysomenice" data-embed-version="2" data-pen-title="Is JSON?" class="codepen">See the Pen <a href="https://codepen.io/verysomenice/pen/KRxjyV/">Is JSON?</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
