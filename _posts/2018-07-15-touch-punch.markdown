@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Touch Punch"
-date:   1988-07-15 00:00:00 +0900
+date:   2018-07-15 00:00:00 +0900
 categories: jekyll update
 ---
 제가 이번에 새롭게 투입된 프로젝트는 디지털 교과서(이하, DT) 프로젝트입니다.   
