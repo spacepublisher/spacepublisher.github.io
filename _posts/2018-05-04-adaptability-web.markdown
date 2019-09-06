@@ -63,9 +63,8 @@ categories: jekyll update
 - 즉, 반응형웹으로 만든 사이트를 발견했다면, 그것을 보고 '이거 적응형웹이군!' 하면 그 말은 정확히 '사실'입니다.
 
 한마디로 이 이미지로 압축됩니다.
+
 ![적응형웹은 서버 레이어와 클라이언트 레이어로 구성된다.](/assets/2018-05-04-adaptability-web-01.png)
-![](/assets/2018-05-04-adaptability-web-02.jpg)
-![](/assets/2018-05-04-adaptability-web-03.jpg)
 
 ## 그리고 예제. 네이버.
 마지막으로 조금더 확실하게 느낌을 드리기 위해 예제를 들어보겠습니다.  
@@ -74,7 +73,11 @@ categories: jekyll update
 
 A판 는 일반적으로 PC로 접속했을때 나오는 모습입니다.
 
+![ ](/assets/2018-05-04-adaptability-web-02.jpg)
+
 B판 는 모바일로 접속했을때 나오는 모습입니다.
+
+![ ](/assets/2018-05-04-adaptability-web-03.jpg)
 
 즉, 네이버 포털은 두개의 판을 준비해두고, '상황에 따라 클라이언트측으로 A판을 내주거나, B판을 내줄 전략'을 짰습니다.  
 여기까지는 분명 적응형웹(전략)입니다. 아직까지는 '반응형웹'인지 아닌지 알 수 없습니다. 아직은요.  
@@ -84,7 +87,7 @@ B판 는 모바일로 접속했을때 나오는 모습입니다.
 B판은 반응형인겁니다.  
 
 ## 추천글
-마지막으로 적응형웹 관련 좋은 글이 있어서 링크남겨놓겠습니다.
+마지막으로 적응형웹 관련 좋은 글이 있어서 링크남겨놓겠습니다.  
 [the many faces of ‘adaptive design’][link1]
 
 [link1]: http://bradfrost.com/blog/post/the-many-faces-of-adaptive-design/
