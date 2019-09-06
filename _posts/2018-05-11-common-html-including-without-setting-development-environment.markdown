@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "개발환경 세팅없이 HTML 공통부분 인클루딩하기"
-date:   1988-06-10 00:00:00 +0900
+date:   2018-05-11 00:00:00 +0900
 categories: jekyll update
 ---
 PHP나 Java같은 백엔드 개발 언어에는 인클루딩(Including)같은 문법 장치가 필수로 있습니다.  
