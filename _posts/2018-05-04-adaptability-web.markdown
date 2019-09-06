@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "적응형 웹, 오해와 편견"
-date:   1988-06-10 00:00:00 +0900
+date:   2018-05-04 00:00:00 +0900
 categories: jekyll update
 ---
 반응형웹, 적응형웹.  
