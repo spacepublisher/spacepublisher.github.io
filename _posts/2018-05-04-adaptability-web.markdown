@@ -75,6 +75,7 @@ A판 는 일반적으로 PC로 접속했을때 나오는 모습입니다.
 
 ![ ](/assets/2018-05-04-adaptability-web-02.jpg)
 
+
 B판 는 모바일로 접속했을때 나오는 모습입니다.
 
 ![ ](/assets/2018-05-04-adaptability-web-03.jpg)
