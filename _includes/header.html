@@ -1,5 +1,7 @@
 <header class="site-header">
 
+  <link href="{{ site.asset_url }}/favicon.ico" rel="icon" type="image/jpg"/>
+
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
