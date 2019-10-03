@@ -4,11 +4,10 @@ title: Code
 permalink: /code/
 ---
 
+- [까다로운 그라데이션 백그라운드 박스][link_XWWrNeO] `CSS`
 
-- [바닐라JS 사이드 아웃 아코디온 네비게이션][link1] `#VanilaJS` `CSS`
+[link_XWWrNeO]: https://codepen.io/verysomenice/pen/XWWrNeO
 
-[link1]: https://codepen.io/verysomenice/pen/dxpKBm
+- [바닐라JS 사이드 아웃 아코디온 네비게이션][link_dxpKBm] `#VanilaJS` `CSS`
 
-- [까다로운 그라데이션 백그라운드 박스][link2] CSS`
-
-[link2]: https://codepen.io/verysomenice/pen/XWWrNeO
+[link_dxpKBm]: https://codepen.io/verysomenice/pen/dxpKBm
