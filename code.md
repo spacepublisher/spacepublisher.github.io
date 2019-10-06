@@ -8,9 +8,9 @@ permalink: /code/
 
 [link_bMvNgz]: https://codepen.io/verysomenice/pen/bMvNgz
 
-- [Anzi's Listeners Playerlist - 화려하게 서서히 생기는 모션][link_bMvNgz] `#jQuery` `#CSS`
+- [Anzi's Listeners Playerlist - 화려하게 서서히 생기는 모션][link_vjjBoB] `#jQuery` `#CSS`
 
-[link_bMvNgz]: https://codepen.io/verysomenice/pen/bMvNgz
+[link_vjjBoB]: https://codepen.io/verysomenice/pen/vjjBoB
 
 - [서서히 퍼지는 웨이브 모션][link_rRpPqq] `#jQuery` `#CSS`
 
