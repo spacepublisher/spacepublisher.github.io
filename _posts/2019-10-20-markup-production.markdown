@@ -31,7 +31,7 @@ categories: jekyll update
 그냥 자바스크립트만으로도 그게 가능하다고 아시고 그냥 쓰셔도 무관하지만, 원리가 궁금하시다면 저의 다른 글을 참고하시기 바랍니다.  
 [개발환경 세팅없이 공통부분 인클루드하기.][link2]
 
-[link2] : https://spacepublisher.github.io/jekyll/update/2018/05/10/common-html-including-without-setting-development-environment.html
+[link2]: https://spacepublisher.github.io/jekyll/update/2018/05/10/common-html-including-without-setting-development-environment.html
 
 ## 00_layout
 위에서 정의한 header, gnb, lnb, aside, footer, layerpopup의 조합에 따라 타입이 나뉘는데, 여기서는 3가지가 있다고 가정했습니다. 각 이름은 a,b,c 타입이라고 했습니다. 이제 모든 실제 메인, 서브 페이지를 코딩할때 여기서 정의된 파일 셋중 하나를 선택하여 복사하여 붙여넣기한 다음에 코딩하기 시작하면 됩니다.
