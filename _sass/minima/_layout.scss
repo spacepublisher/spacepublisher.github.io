@@ -128,6 +128,7 @@ position: relative;
     z-index:100;
 }
 */
+/*
 .page-content:after,
 .page-content:before{
 	display: block;
@@ -151,6 +152,7 @@ position: relative;
   filter: grayscale(100%);
 	opacity: 1;
 }
+*/
 
 .page-heading {
   @include relative-font-size(2);
@@ -292,6 +294,30 @@ position: relative;
     background-repeat: no-repeat;
     margin-bottom: 30px;
 }
+.top-visual:after,
+.top-visual:before{
+	display: block;
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.top-visual:after{
+	z-index: 10;
+	background: #fff;
+	opacity: 0.78;
+}
+.top-visual:before{
+	z-index: 1;
+	background: url(https://source.unsplash.com/featured/?javascript) 50% 50%;
+	background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+	opacity: 1;
+}
+
 
 
 .home{
