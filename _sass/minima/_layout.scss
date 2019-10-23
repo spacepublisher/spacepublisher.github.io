@@ -122,6 +122,31 @@
   padding-top: 0;
 }
 
+.page-content:after,
+.page-content:before{
+	display: block;
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.page-content:after{
+	z-index: 10;
+	background: skyblue;
+	background: black;
+	opacity: 0.78;
+}
+.page-content:before{
+	z-index: 1;
+	background: url(https://source.unsplash.com/featured/?javascript) 50% 50%;
+	background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+	opacity: 1;
+}
+
 .page-heading {
   @include relative-font-size(2);
   color: #8898aa;
