@@ -20,9 +20,15 @@
 }
 .site-nav .trigger a{
     display: inline-block;
-    color: $text-color;
+    // color: $text-color;
+    color: #222;
     font-size: 18px;
     margin-right: 40px;
+    font-weight: 900;
+}
+.site-nav .trigger a:hover{
+    text-decoration: none;
+    color: blue;
 }
 .site-nav .trigger a:last-of-type{
     margin-right: 0;
@@ -185,6 +191,14 @@ position: relative;
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+
+  color: #222;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.post-link:hover {
+    color: blue;
 }
 
 
