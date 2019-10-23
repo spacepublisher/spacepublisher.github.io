@@ -117,11 +117,15 @@
  * Page content
  */
 .page-content {
+position: relative;
   padding: $spacing-unit 0;
   flex: 1 0 auto;
   padding-top: 0;
 }
-
+.page-content .wrapper{
+    position: relative;
+    z-index:100;
+}
 .page-content:after,
 .page-content:before{
 	display: block;
@@ -134,8 +138,7 @@
 }
 .page-content:after{
 	z-index: 10;
-	background: skyblue;
-	background: black;
+	background: #fff;
 	opacity: 0.78;
 }
 .page-content:before{
