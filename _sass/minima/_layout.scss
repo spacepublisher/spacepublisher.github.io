@@ -234,11 +234,17 @@ position: relative;
   }
 }
 
+.post-content h1 {
+    line-height: 1.3;
+}
+
 .post-title{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 .post-content {
   margin-bottom: $spacing-unit;
   max-width: 800px;
@@ -346,12 +352,19 @@ position: relative;
     max-width: 800px;
     margin: 0 auto;
 }
+@media screen and (max-width: $on-medium) {
+    .home{
+        padding: 0 15px;
+    }
+}
+
+
 
 .home ul {
 }
 .home ul li {
     font-size: 24px;
-    font-weight: 900;    
+    font-weight: 900;
 }
 .home ul li a {
     color: #222;
