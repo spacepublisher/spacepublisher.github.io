@@ -220,6 +220,9 @@ position: relative;
 .post-header {
   margin-bottom: $spacing-unit;
   margin-bottom: 100px;
+  @media screen and (max-width: $on-medium) {
+    padding: 0 15px;
+  }
 }
 
 .post-title,
@@ -250,6 +253,9 @@ position: relative;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: $on-medium) {
+    padding: 0 15px;
+  }
 
   h2 {
     @include relative-font-size(1.75);
