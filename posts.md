@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Posts
+title: 기술블로그
 permalink: /posts/
 ---
 

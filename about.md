@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: 쥔장
 permalink: /about/
 ---
 
