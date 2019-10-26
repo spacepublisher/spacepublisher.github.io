@@ -162,6 +162,16 @@ code {
 code {
   padding: 1px 5px;
 }
+.page-content code{
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 0;
+    vertical-align: middle;
+    color: #fff;
+    padding: 3px 5px;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;  
+}
+
 
 pre {
   padding: 8px 12px;
