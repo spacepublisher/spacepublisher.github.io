@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vuetify는 퍼블리셔에게 무서운 존재다"
+title:  "Vuetify는 퍼블리셔에게 무서운 존재다 (쓰는중)"
 date:   2020-06-16 00:00:00 +0900
 categories: jekyll update
 ---
