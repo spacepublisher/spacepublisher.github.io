@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "구글 차트에서 커스텀 툴팁을 적용하는 방법"
+title:  "구글 차트에서 커스텀 툴팁을 적용하는 방법(쓰는중)"
 date:   2020-08-17 00:00:00 +0900
 categories: jekyll update
 ---
