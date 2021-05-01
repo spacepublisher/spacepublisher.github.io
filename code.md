@@ -4,6 +4,9 @@ title: 코드
 permalink: /code/
 ---
 
+<img src="{{ site.asset_url }}/sp_logo.jpg" alt="spacepublisher" style="width: 50px;">
+
+
 - [LFMall-회원가입 폼][link_EOMbpM] `#jQuery` `#CSS`
 - [Anzi's Listeners Playerlist - 햄버거 버튼 길어졌다 짧아지는 모션][link_bMvNgz] `#jQuery` `#CSS`
 - [Anzi's Listeners Playerlist - 화려하게 서서히 생기는 모션][link_vjjBoB] `#jQuery` `#CSS`
