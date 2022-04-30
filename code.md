@@ -4,7 +4,7 @@ title: 코드
 permalink: /code/
 ---
 
-<img src="{{ site.asset_url }}/sp_logo.jpg" alt="spacepublisher" style="width: 50px;">
+
 
 
 - [LFMall-회원가입 폼][link_EOMbpM] `#jQuery` `#CSS`
@@ -30,3 +30,7 @@ permalink: /code/
 [link_XWWrNeO]: https://codepen.io/verysomenice/pen/XWWrNeO
 [link_wvvwJmK]: https://codepen.io/verysomenice/pen/wvvwJmK
 [link_dxpKBm]: https://codepen.io/verysomenice/pen/dxpKBm
+
+
+<!-- 이미지 테스트 -->
+<img src="{{ site.asset_url }}/sp_logo.jpg" alt="spacepublisher" style="width: 50px;">
