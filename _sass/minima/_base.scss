@@ -31,6 +31,9 @@ body {
 body {
     font-size: 18px;
     color: #333e4c;
+
+    /*20220625 백그라운드 이미지 별모양 추가*/
+    background: {{ site.asset_url }}/star-bg.svg;
 }
 
 
