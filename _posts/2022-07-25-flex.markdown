@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "쉽게 쓰는 flex"
+date:   2022-07-25 00:00:00 +0900
+categories: jekyll update
+---
+## 개요
+flex는 개인적으로, 타 display값인 block, inline등에 비해 잘 익혀지지가 않았습니다.
+flex에 대해 잘 정리되어있는 사이트를 보고 공부를 해도 그때뿐이었습니다. 막상 실무에서 쓰려고하면, 잘 안됬습니다.
+해서, flex를 찾아보지 않고 바로바로 쓸 수 있게 제대로 파악을 하고싶다는 생각으로 연구를 해봤고, 성과가 있어서 이렇게 글을 써봅니다.
+
+## flex가 어려운 이유 1, 수많은 속성
+그 이유는 flex는 container와 item이라는 개념, 또 각 container와 item에 수많은 flex 관련 속성이 존재한다는 점때문입니다.
+container를 위한 속성에는 display, flex-direction, flex-wrap, flex-flow, justify-content, align-items, align-content, gap, row-gap, column-gap이 있고,
+item을 위한 속성에는 order, flex-grow, flex-shrink, flex-basis, flex, align-self 가 있습니다. 
+지금 이것들은 제가 외워서 쓴게 아니라, 인터넷에서 찾아서 보고 쓴것입니다. 아무튼, 이러니까 flex가 어려운겁니다. 이러니까, 맨날 공부해봐야 또 까먹는겁니다.
+
+## flex가 어려운 이유 2, 'flex' 속성
+실무에 계신분들은 가끔 css파일에서 display: flex가 아니라, 'flex'라는 속성이 또 있다는것을 보셨을겁니다. 
+이 속성은 사실 flex-grow, flex-shrink, flex-basis 이 세개를 한번에 쓰는 축약 속성입니다. 
+예를들면 'flex: 1 1 auto' 이렇게 쓰입니다. 
+세 개를 축약했으니, 충분히 납득가는 방식입니다.
+그런데, 이렇게도 쓸 수 있습니다. 
+'flex: 1'
+이게 뭘까요? 각 세개의 속성에 1, 1, 1을 정의한걸까요? 놀랍게도, 'flex-grow'만 1을 정의하겠다는 뜻입니다. 이런식의 flex의 값의 규칙도 괜히 혼란스럽게 만듭니다.
+또한, 디폴트값도 헤깔립니다. flex-grow는 0, flex-shrink는 1, flex-basis는 auto입니다. 이걸 나중에 완벽하게 틀리지않고 외우고있을 확신이 저는 없습니다.
+
+## flex 그리고, 'GSB'
+이러한 상황에서, 제가 쓰는 방법은 다음과 같습니다.
+container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의하세요. 그리고, 다른 속성은 생각하지 마세요. 딱 4개. container에 display: flex(혹은 inline-flex), item에 'GSB'.
+즉, 다음과 같습니다.
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+이런식으로 flex라고 축약해서 쓰지말고, 세개를 따로따로 쓰시고, 디폴트로 무조건 0을 정의해놓으세요. 그리고, UI디자인의 요구 사항에 맞춰서 0대신 다른값으로 고치세요.
+
+
+
