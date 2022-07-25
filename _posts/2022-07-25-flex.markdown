@@ -30,18 +30,12 @@ item을 위한 속성에는 order, flex-grow, flex-shrink, flex-basis, flex, ali
 container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의하세요. 그리고, 다른 속성은 생각하지 마세요. 딱 4개. container에 display: flex(혹은 inline-flex), item에 'GSB'.
 즉, 다음과 같습니다.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwMZKEq" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="RwMZKEq" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/verysomenice/pen/RwMZKEq">
   Flex Theory</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="RwMZKEq" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/verysomenice/pen/RwMZKEq">
-  Flex Theory</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>이런식으로 flex라고 축약해서 쓰지말고, 세개를 따로따로 쓰시고, 디폴트로 무조건 0을 정의해놓으세요. 그리고, UI디자인의 요구 사항에 맞춰서 0대신 다른값으로 고치세요.
 
