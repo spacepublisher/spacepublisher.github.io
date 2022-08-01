@@ -41,6 +41,8 @@ container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의
   Flex Theory</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 이런식으로 flex라고 축약해서 쓰지말고, 세개를 따로따로 쓰시고, 디폴트로 무조건 0을 정의해놓으세요. 그리고, UI디자인의 요구 사항에 맞춰서 0대신 다른값으로 고치세요.
 
 ## 탭메뉴 예제
@@ -49,6 +51,16 @@ container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의
 
 ### 너비가 동일한 탭메뉴
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="jOzYKLy" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/verysomenice/pen/jOzYKLy">
+  너비가 동일한 탭메뉴</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### 텍스트량에 비례하는 탭메뉴
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="MWVrXEv" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/verysomenice/pen/MWVrXEv">
+  텍스트량에 비례하는 탭메뉴</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
