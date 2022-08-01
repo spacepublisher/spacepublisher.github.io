@@ -22,12 +22,18 @@ item을 위한 속성에는 order, flex-grow, flex-shrink, flex-basis, flex, ali
 세 개를 축약했으니, 충분히 납득가는 방식입니다.
 그런데, 이렇게도 쓸 수 있습니다. 
 'flex: 1'
-이게 뭘까요? 각 세개의 속성에 1, 1, 1을 정의한걸까요? 놀랍게도, 'flex-grow'만 1을 정의하겠다는 뜻입니다. 이런식의 flex의 값의 규칙도 괜히 혼란스럽게 만듭니다.
-또한, 디폴트값도 헤깔립니다. flex-grow는 0, flex-shrink는 1, flex-basis는 auto입니다. 이걸 나중에 완벽하게 틀리지않고 외우고있을 확신이 저는 없습니다.
+이게 뭘까요? 각 세개의 속성에 1, 1, 1을 정의한걸까요? 
+놀랍게도, 'flex-grow'만 1을 정의하겠다는 뜻입니다. 
+이런식의 flex의 값의 규칙도 괜히 혼란스럽게 만듭니다.
+또한, 디폴트값도 헤깔립니다. 
+flex-grow는 0, flex-shrink는 1, flex-basis는 auto입니다. 
+이걸 나중에 완벽하게 틀리지않고 외우고있을 확신이 저는 없습니다.
 
 ## flex 그리고, 'GSB'
 이러한 상황에서, 제가 쓰는 방법은 다음과 같습니다.
-container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의하세요. 그리고, 다른 속성은 생각하지 마세요. 딱 4개. container에 display: flex(혹은 inline-flex), item에 'GSB'.
+container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의하세요. 
+그리고, 다른 속성은 생각하지 마세요. 
+딱 4개. container에 display: flex(혹은 inline-flex), item에 'GSB'.
 즉, 다음과 같습니다.
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="RwMZKEq" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -35,9 +41,14 @@ container에 display: flex를 정의했다면, 곧바로 item에 'GSB'를 정의
   Flex Theory</a> by verysomenice (<a href="https://codepen.io/verysomenice">@verysomenice</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+이런식으로 flex라고 축약해서 쓰지말고, 세개를 따로따로 쓰시고, 디폴트로 무조건 0을 정의해놓으세요. 그리고, UI디자인의 요구 사항에 맞춰서 0대신 다른값으로 고치세요.
 
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>이런식으로 flex라고 축약해서 쓰지말고, 세개를 따로따로 쓰시고, 디폴트로 무조건 0을 정의해놓으세요. 그리고, UI디자인의 요구 사항에 맞춰서 0대신 다른값으로 고치세요.
+## 탭메뉴 예제
+두개의 예제를 만들어 보겠습니다. 흔히 쓰이는 탭메뉴 입니다.
+그중 하나는 너비가 동일한 탭메뉴이고, 또 하나는 너비가 텍스트량에 비례해서 서로 크기가 다른 탭메뉴입니다.
 
+### 너비가 동일한 탭메뉴
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="jOzYKLy" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-
+### 텍스트량에 비례하는 탭메뉴
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="MWVrXEv" data-user="verysomenice" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
